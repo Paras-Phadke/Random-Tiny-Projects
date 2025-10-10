@@ -112,9 +112,9 @@ def dectobin(num):
             quo //= 2
     return binres
 
-if True:
-    print("################ RESULTS ################")
-    print("   Decimal form is: ",decres)
-    print("   Hexadecimal form is: ",dectohex(decres))
-    print("   Octal form is: ",dectooct(decres))
-    print("   Decimal from is: ",dectobin(decres))
+
+print("################ RESULTS ################")
+print("   Decimal form is: ",decres)
+print("   Hexadecimal form is: ",dectohex(decres))
+print("   Octal form is: ",dectooct(decres))
+print("   Decimal from is: ",dectobin(decres))
